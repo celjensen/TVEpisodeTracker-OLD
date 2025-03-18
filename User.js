@@ -30,11 +30,11 @@ class User {
 
     //GETTERS
 
-    get username() {
+    get #username() {
         return this.#username;
     }
 
-    get password() {
+    get #password() {
         return this.#password;
     }
 
